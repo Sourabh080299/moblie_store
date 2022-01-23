@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <!--``````````` navbar `````````````` -->
+        <ul class="navcontainer">
+                  <li><i class="fa fa-mobile-phone" style="font-size:50px;color: white;"></i></li>
+                  <li onclick="moblienavbar()" id="bar"><a href="#"><i class="fa fa-bars" style="font-size:36px"></i></a></li>
+                  <li id="active"><a href="./index.html">Home</a></li>
+                  <li><a href="#aboutus">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Help</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Signup</a></li>
+                  <li id="search"><input type="text" placeholder="Search..."> <i class="fa fa-thumbs-up" style="font-size:30px"></i></li>                 
+        </ul>
+        <ul  style="display: none" id="moblienav1" class="moblienav">
+        <i onclick="moblienavbar()"  class="material-icons" style="font-size:40px; color: white;cursor: pointer;">cancel</i><hr>
+        <a onclick="moblienavbar()" href="./index.html"><li id="active"> Home</li></a>
+        <a onclick="moblienavbar()" href="#aboutus"><li>About</li></a>
+        <a onclick="moblienavbar()" href="#"><li>Moblie & Tablets</li></a>
+        <a onclick="moblienavbar()" href="#"><li>Compare</li></a>
+        <a onclick="moblienavbar()" href="#"><li>Top 10</li></a>
+        <a onclick="moblienavbar()" href="#"><li>Upcoming Moblies</li></a>
+        <a onclick="moblienavbar()" href="#"><li>Laptops</li></a>
+        <a onclick="moblienavbar()" href="#"><li>News & Reviews</li></a>
+        <a onclick="moblienavbar()" href="#"><li>Best</li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Contact</li></a>
+        <a href="#"><li>Help</li></a>
+        <a href="#"><li>Login</li></a>
+        <a href="#"><li>Signup</li></a>
+        <a href="#"><li>Signup</li></a>
+        <a href="#"><li>Signup</li></a>
+        <a href="#"><li>Signup</li></a>
+        <a href="#"><li>Signup</li></a>
+        <a href="#"><li>Signup</li></a>
+        <a href="#"><li>Signup</li></a>
+        <a href="#"><li>Signup</li></a>
+        <a href="#"><li>Signup</li></a>
+        <a href="#"><li>Signup</li></a>
+        <a href="#"><li>Signup</li></a>
+        </ul>
+        <ul class="navcontainer1"> 
+                <a href="#"></a><li>Moblie & Tablets🡻
+                    <ul>
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Contact</li></a>
+                        <a href="#"><li>Help</li></a>
+                        <a href="#"><li>Login</li></a>
+                        <a href="#"><li>Signup</li></a> 
+                    </ul>
+                </li></a>
+                <a href="#"><li>Compare 🡻
+                    <ul>
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Contact</li></a>
+                        <a href="#"><li>Help</li></a>
+                        <a href="#"><li>Login</li></a>
+                        <a href="#"><li>Signup</li></a> 
+                    </ul>
+                </li></a>
+                <a href="#"> <li>Top 10🡻
+                    <ul>
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Contact</li></a>
+                        <a href="#"><li>Help</li></a>
+                        <a href="#"><li>Login</li></a>
+                        <a href="#"><li>Signup</li></a> 
+                    </ul>
+                    </li></a>
+                <li><a href="#">Upcoming</a></li>
+                <a href="#"><li>Best🡻
+                    <ul>
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Contact</li></a>
+                        <a href="#"><li>Help</li></a>
+                        <a href="#"><li>Login</li></a>
+                        <a href="#"><li>Signup</li></a> 
+                    </ul>
+                </li></a>
+                <a href="#"><li>News & Reviews🡻
+                    <ul>
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Contact</li></a>
+                        <a href="#"><li>Help</li></a>
+                        <a href="#"><li>Login</li></a>
+                        <a href="#"><li>Signup</li></a> 
+                    </ul>
+               </li></a>
+               <a href="#"> <li>Laptops🡻
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Contact</li></a>
+                    <a href="#"><li>Help</li></a>
+                    <a href="#"><li>Login</li></a>
+                    <a href="#"><li>Signup</li></a> 
+                </ul>
+                </li></a>
+                <li><a href="#">More</a></li>
+        </ul>
+        <ul class="navcontainer2"> 
+                <li><a href="#">Moblie</a></li>
+                <li><a href="#">Laptops</a></li>
+                <li><a href="#">Tablets</a></li>
+                <li><a href="#">Cameras</a></li>
+                <li><a href="#">Television</a></li>
+                <li><a href="#">Home Theaters</a></li>
+                <li><a href="#">Power Banks</a></li>
+                <li><a href="#">Smart Watches</a></li>
+              
+        </ul>
+    <!--````````````````````````````` -->
+
+
+
+    <!--``````````` home ```````````````` -->
+    <div class="homecontainer">
+        <h1 class="header">Good afternoon sir Welcome to brand store</h1>
+          <div class="headofcontent">
+              <div class="filter">
+                   <div class="inputs">
+                    <h1>Let's Find a Mobile For You!</h1><br>
+                    <h3>By Price</h3><br>
+                    <input type="range"><br><br>
+                    <label>RS.</label>
+                    <input type="text" placeholder="more than 1000">
+                    <span>to</span>
+                    <label>RS.</label>
+                    <input type="text" placeholder="your choice"><br><br>
+                    <button type="submit">submit</button>
+                    <div class="price"><br>
+                        <h3>Price Around</h3>
+                        <ul>
+                            <li><a href="#">Rs.4000</a></li>
+                            <li><a href="#">Rs.6000</a></li>
+                            <li><a href="#">Rs.8000</a></li>
+                            <li><a href="#">Rs.10000</a></li>
+                            <li><a href="#">above Rs.10000</a></li>
+                        </ul>
+                    </div>
+                   </div>
+                   <div class="sidemenu">
+                        <h3>By Brands</h3>
+                        <ul>
+                          <li><a href="#">Samsung</a></li>
+                          <li><a href="#">Xiaomi</a></li>
+                          <li><a href="#">Realme</a></li>
+                          <li><a href="#">Vivo</a></li>
+                          <li><a href="#">Oppo</a></li>
+                          <li><a href="#">Iphone</a></li>
+                          <li><a href="#">Others</a></li>
+                      </ul>
+                      </div>
+
+                    <div class="sidemenu">
+                        <h3>By Feature</h3>
+                      <ul>
+                        <li><a href="#">64/4 GB</a></li>
+                        <li><a href="#">128/4 GB</a></li>
+                        <li><a href="#">128/6 GB</a></li>
+                        <li><a href="#">4000mh</a></li>
+                        <li><a href="#">16MP+ Camera</a></li>
+                        <li><a href="#">Android pie 9.0</a></li>
+                    </ul>
+                    </div>
+
+                    
+
+
+              </div>
+                 <!--``````` slider`````` -->
+        <div class="slider">
+            <button onclick="leftslider()" class="arrow"><i class="fa fa-chevron-left" ></i></i>
+            </button>
+            <img ondblclick="rightslider()" id="slidersrc" src="./images/s11.webp" style="width: 90%; height: 100%; ">           
+            <button onclick="rightslider()" class="arrow"><i class="fa fa-chevron-right" ></i></button>
+        </div>
+             
+           
+          </div>
+    </div>
+    <div id="sliderafter" class="slider">
+        <button onclick="leftslider1()" class="arrow"><i class="fa fa-chevron-left" ></i></i></button>
+        <img ondblclick="rightslider1()" id="slidersrc1" src="./images/s11.webp" style="width: 90%; height: 100%; ">           
+        <button onclick="rightslider1()" class="arrow"><i class="fa fa-chevron-right" ></i></button>
+    </div>
+  <div class="mainitems">       
+            <div class="cart">
+                <img src="./images/slider2.jpg">
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/slider1.jpg" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/slider3.jpg" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/slider4.jpg" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/slider5.jpg" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/slider6.jpg" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/silder7.jpg" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/slider8.jpg" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/slider9.jpg" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/s1.webp" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/s2.webp" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/s3.webp" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/s4.webp" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/s5.webp" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/s6.webp" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/s7.webp" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/s8.webp" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/s9.webp" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/s10.webp" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            <div class="cart">
+                <img src="./images/s11.webp" >
+                <h3>Readmi note 9</h3>
+                <h3>Rs.21,999</h3><br>
+                                <span>6GB RAM || 128 GB Internal || 4500 mAh || 6.7inches(16.95 cm) || 48MP Rear camera || 16 MP Front Camera || Fast Charger || Type-C Support </span><br><br>
+
+                <a href="#">View Details</a><br><br>
+             </div>  
+            
+       
+  </div>
+    <!--````````````````````````````` -->
+
+
+
+    <!--``````````` offers ```````````````` -->
+<div class="offers">
+    <div class="offer">
+        <h3>Upcoming Mobiles</h3><br>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider1.jpg"></a>
+            </div>               
+            <div >
+             <a href="#"> LG G8X ThinQ </a>
+             <a href="#">Rs.27,890</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider2.jpg"></a>
+            </div>               
+            <div>
+             <a style="font-size: 20px;" href="#">Samsung Galaxy Z Fold 2</a>
+             <a href="#">Rs.149.998</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider3.jpg"></a>
+            </div>               
+            <div>
+             <a style="font-size: 20px;" href="#">Samsung Galaxy Z Flip</a>
+             <a href="#">Rs.66,990</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider4.jpg"></a>
+            </div>               
+            <div>
+             <a style="font-size: 20px;" href="#">Vivo y50(1935)</a>
+             <a href="#">Rs.17000</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider5.jpg"></a>
+            </div>               
+            <div>
+             <a style="font-size: 20px;" href="#">Redmi note 9 Pro Max</a>
+             <a href="#">Rs.22,000</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>                
+       </div>
+       <div class="offer">
+        <h3>Featured Mobile Comparisons</h3><br>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider1.jpg"></a>
+            </div>               
+            <div >
+                <span style="font-size:40px;">VS</span>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider9.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider2.jpg"></a>
+            </div>               
+            <div >
+                <span style="font-size:40px;">VS</span>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider2.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider3.jpg"></a>
+            </div>               
+            <div >
+                <span style="font-size:40px;">VS</span>
+            </div>                
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider6.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider4.jpg"></a>
+            </div>               
+            <div >
+                <span style="font-size:40px;">VS</span>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider8.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider5.jpg"></a>
+            </div>               
+            <div >
+                <span style="font-size:40px;">VS</span>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider2.jpg"></a>
+            </div>               
+        </div>                
+       </div>
+       <div class="offer">
+        <h3>Foldable Smartphones</h3><br>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider1.jpg"></a>
+            </div>               
+            <div >
+             <a href="#"> LG G8X ThinQ </a>
+             <a href="#">Rs.27,890</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider2.jpg"></a>
+            </div>               
+            <div>
+             <a style="font-size: 20px;" href="#">Samsung Galaxy Z Fold 2</a>
+             <a href="#">Rs.149.998</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider3.jpg"></a>
+            </div>               
+            <div>
+             <a style="font-size: 20px;" href="#">Samsung Galaxy Z Flip</a>
+             <a href="#">Rs.66,990</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider4.jpg"></a>
+            </div>               
+            <div>
+             <a style="font-size: 20px;" href="#">Vivo y50(1935)</a>
+             <a href="#">Rs.17000</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider5.jpg"></a>
+            </div>               
+            <div>
+             <a style="font-size: 20px;" href="#">Redmi note 9 Pro Max</a>
+             <a href="#">Rs.22,000</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>                
+       </div>
+       <div class="offer">
+        <h3>Latest and Popular Mobiles</h3><br>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider1.jpg"></a>
+            </div>               
+            <div >
+             <a href="#"> LG G8X ThinQ </a>
+             <a href="#">Rs.27,890</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider2.jpg"></a>
+            </div>               
+            <div>
+             <a style="font-size: 20px;" href="#">Samsung Galaxy Z Fold 2</a>
+             <a href="#">Rs.149.998</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider3.jpg"></a>
+            </div>               
+            <div>
+             <a style="font-size: 20px;" href="#">Samsung Galaxy Z Flip</a>
+             <a href="#">Rs.66,990</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider4.jpg"></a>
+            </div>               
+            <div>
+             <a style="font-size: 20px;" href="#">Vivo y50(1935)</a>
+             <a href="#">Rs.17000</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>
+        <div class="item"> 
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/slider5.jpg"></a>
+            </div>               
+            <div>
+             <a style="font-size: 20px;" href="#">Redmi note 9 Pro Max</a>
+             <a href="#">Rs.22,000</a>
+            </div>               
+            <div>
+             <a href="#"><img style=" width: 50px; height: 50px;" src="./images/logo5.jpg"></a>
+            </div>               
+        </div>                
+       </div>
+</div>
+    <!--````````````````````````````` -->
+
+
+
+  <!-- about us-->
+  <div id="aboutus" class="aboutus">
+        <div class="heading">
+               <h1>About Us</h1>
+        </div>
+        <div class="content">
+            <p> Brand Store
+                Launched iBrand Store.com is the largest gadget discovery site in India, 
+                focused on smartphones. It provides information and interactive tools to help 
+                people decide which phone to buy and where to buy it from.<br><br>
+                
+                Brand Store.com is visited by over 25 million gadget enthusiasts every month,
+                 and ranks among the top 200 websites in India. Brand Store has a team of 70 
+                 people based out of Gurgaon (HO) and Chennai.<br><br>
+                
+                Brand Store.com works with most of the leading electronics and 
+                telecom brands (Samsung, Nokia, Oppo, Vivo, etc.), as well as 
+                leading e-tailers (Amazon, Flipkart, PayTM, TataCliq etc.), to 
+                provide them with innovative ways to reach Brand Store.com’s gadget
+                 enthusiast community for promoting their products and offers.
+                
+            </p>
+        </div>
+        <div class="imgtag">
+            <img src="./images/aboutus.webp">
+            <ul>
+                <li> Used by over 25 million users every month</li>
+                <li> Over 50 million page views per month</li>
+                <li>Database of more than 45,000 mobiles & electronics devices</li>
+                <li>Detailed information & expert reviews by our senior editorial team</li>
+                <li>Interactive tools like phone finder, and spec score to help you decide which phone to buy</li>              
+            </ul>
+        </div>
+        <div class="team">
+            <button>Editorial Team</button>
+        </div>
+        
+        
+  </div>
+   <!--````````````````````````````` -->
+
+
+
+  <!-- Contant us-->
+  <div id="contactus" class="contactus">
+        <div class="heading">
+               <h1>Contant Us</h1>
+        </div>
+        <div class="content">
+            <h3>Contact Information</h3>
+                
+        </div>
+        <div class="imgtag">
+            <img src="./images/aboutus.webp">
+            <ul>
+                <li> Used by over 25 million users every month</li>
+                <li> Over 50 million page views per month</li>
+                <li>Database of more than 45,000 mobiles & electronics devices</li>
+                <li>Detailed information & expert reviews by our senior editorial team</li>
+                <li>Interactive tools like phone finder, and spec score to help you decide which phone to buy</li>              
+            </ul>
+        </div>
+        <div class="team">
+            <button>Editorial Team</button>
+        </div>
+        
+        
+  </div>
+   <!--````````````````````````````` -->
+
+
+
+
+   <!--``````````` footer ```````````````` -->
+   <div class="footer">
+       <div class="subcription">
+           <h3>Subscribe for top stories, new launches & expert reviews!</h3>
+           <h3 id="subafter">Subscribe for top stories!</h3>
+           <ul>
+            <li class="email"><input type="text" placeholder="Enter Your Email"><i class="fa fa-thumbs-up" style="font-size:30px"></i></li>
+            <li><a href="https://twitter.com/Sourabh59638606" class="fa fa-twitter"></a></li>
+            <li><a href="https://www.instagram.com/sourabh_patel0802/" class="fa fa-instagram"></a></li>
+            <li><a href="https://www.linkedin.com/in/sourabh-patel-79bb7a205" class="fa fa-linkedin"></a></li>
+            <li><a href="https://www.facebook.com/sourabh.patel.313924/" class="fa fa-facebook"></a></li>
+            <li><a href="https://www.google.com" class="fa fa-google"></a></li>
+            <li><a href="https://github.com/Sourabh080299" class="fa fa-github"></a></li>            
+            <!-- <li><a href="https://youtube.com" class="fa fa-youtube"></a></li>             -->
+           </ul>
+       </div>
+       <div class="emailcontainer">
+        <li id="email"><input type="text" placeholder="Enter Email for  Notifications"><i class="fa fa-thumbs-up" style="font-size:30px"></i></li>
+       </div>
+      
+      <div class="footercontent">
+            <div class="footeritem">
+                 <h3>Useful Links</h3>
+                 <ul>
+                     <li>Booking Terms</li>
+                     <li>Terms & Conditons</li>
+                     <li>Cookie Policy</li>
+                     <li>Our Client</li>
+                     <li>Why US</li>
+                     <li>Our Warranty</li>                     
+                 </ul>
+            </div>
+            <div class="footeritem">
+                 <h3>Brand</h3>
+                 <ul>
+                     <li>Samsung</li>
+                     <li>Vivo</li>
+                     <li>Iphone</li>
+                     <li>OnePluse</li>
+                     <li>Redmi</li>
+                     <li>Realme</li>                     
+                     <li>Huawei</li>                                          
+                 </ul>
+            </div>
+            <div class="footeritem">
+                 <h3>Go To</h3>
+                 <ul>
+                     <li>Home</li>
+                     <li>Privacy</li>
+                     <li>Sitemap</li>
+                     <li>About Us</li>
+                     <li>offers</li>
+                     <li>Feedback</li>                     
+                 </ul>
+            </div>
+            <div class="footeritem">
+                 <h3>Support</h3>
+                 <ul>
+                     <li>Contant US</li>
+                     <li>Product FAQs</li>
+                     <li>OnePluse</li>
+                     <li>Redmi</li>
+                     <li>Realme</li>                     
+                 </ul>
+            </div>
+      </div>
+      <p style="color: white;border-top: 2px solid rgb(75, 71, 71);padding: 20px;">CopyRight © 2021<br> Developed By SOURABH PATEL<br>All Right Reserved.</p>
+   </div>
+   <!--````````````````````````````` -->
+   
+   
+<script src='./javascript/slider.js'></script>
+</body>
+</html>
