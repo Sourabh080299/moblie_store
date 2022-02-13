@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(56, 54, 54);
+    background-image:url('https://www.cnet.com/a/img/SEtkPeF-QMfgzOf_BBXgPu9VUzA=/1200x675/2020/08/18/b7168aea-9f7e-47bb-9f31-4cb8ad92fbc7/lg-note-20-ultra-5g-iphone-11-se-google-pixel-4a-lg-velvet-6133.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-shadow:5px 10px 30px rgb(255, 255, 255) ;
+    background-color: rgb(44, 45, 46);
+    text-align: center;
+    padding: 5px;
+}
+div{
+    width: 400px;
+    border: 2px solid rgb(12, 12, 12) ;
+    background-image:linear-gradient(90deg,rgb(77, 70, 76),rgb(108, 114, 116),rgb(151, 151, 143),rgb(185, 185, 183),rgb(177, 182, 175),rgb(155, 156, 161));
+    box-shadow: 5px 10px 30px rgb(127, 133, 127) ;
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+    margin-left: 500px;
+    border-radius: 20px;
+}
+input{
+    margin: 20px;
+    padding: 4px;
+    border: 1px solid rgb(47, 49, 47);
+    box-shadow: 4px 5px 15px rgb(39, 41, 39) ;
+    border-radius: 5px;
+}
+button{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(94, 102, 96);
+    box-shadow: 5px 5px 10px rgb(47, 49, 47) ;
+    border-radius: 5px;
+}
