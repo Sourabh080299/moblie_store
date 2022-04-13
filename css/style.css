@@ -71,7 +71,7 @@ body{
 }
 .moblienav{
   padding: 10px;
-  width: 301px;
+  width: 150px;
   max-height: 100vh;
   overflow-y: scroll;
   position: absolute;
@@ -79,7 +79,7 @@ body{
   z-index: 1;
   text-align: center;
   background-color: rgb(27, 26, 26);
-  border: 7px solid rgb(78, 76, 76);
+  border: 3px solid rgb(78, 76, 76);
   list-style-type: none;
 }
 .moblienav li{
@@ -721,8 +721,12 @@ display: none;
    }
    .mainitems .cart img{
     width: 90%;
-    height: 320px;
+    height: 250px;
    }
+   .mainitems .cart a{
+    padding-left: 40px;  
+    padding-right: 40px;  
+  }
    
 }
 @media screen and (max-width:415px){
