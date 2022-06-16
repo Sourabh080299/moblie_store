@@ -36,10 +36,11 @@ body {
   }
 
   .content {
-    margin-left: 190px;
+    margin-left: 10px;
     border-left: 1px solid #d4d4d4;
     padding: 1em;
     overflow: hidden;
+    height: 100vh;
   }
 
   ul {
